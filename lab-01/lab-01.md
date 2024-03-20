@@ -103,7 +103,8 @@ mpfr-4.2.1 ncurses-6.4 zlib-1.2.13 zstd-1.5.5
 	Companion tools :
 ```
 
-**Napomena:** Komandom `./ct-ng show-<config_name>` možemo da prikažemo konfiguraciju
+> [!TIP]
+> Komandom `./ct-ng show-<config_name>` možemo da prikažemo konfiguraciju
 bilo koje od podržanih konfiguracija koje ste dobili u listi.
 
 Da bismo dodatno podesili određene opcije u konfiguraciji, pokrećemo konfiguracioni
@@ -207,7 +208,8 @@ arm-linux-gcc: command not found
 
 onda to znači da niste ispravno eksportovali putanju do *toolchain* alata.
 
-**Napomena:** Putanja do *toolchain* alata eksportovana prethodno navedenom komandom
+> [!IMPORTANT]
+> Putanja do *toolchain* alata eksportovana prethodno navedenom komandom
 biće aktuelna samo dok je aktivna trenutna sesija terminala. Kada zatvorite konzolu
 (odnosno ako otvorite novu konzolu), potrebno je ponovo da unesete ovu komandu. Zbog
 toga, iz praktičnih razloga, možete koristiti skriptu pod nazivom `set-environment.sh`
@@ -337,7 +339,8 @@ slično ime može da ima glavni hard disk računara na kojem radite. Pomenuta ko
 može da uzrokuje brisanje kompletnog fajl sistema računara na kojem radite ako
 izaberete pogrešan uređaj.
 
-**Napomena:** Ukoliko koristite virtuelnu mašinu ili ako računar koji koristite nema
+> [!NOTE]
+Ukoliko koristite virtuelnu mašinu ili ako računar koji koristite nema
 čitač za SD kartice, možete koristiti USB čitač kartica koji će da se nalazi u
 laboratoriji.
 

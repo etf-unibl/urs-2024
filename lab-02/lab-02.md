@@ -67,7 +67,8 @@ obavljamo na ciljnoj platformi tako što kopiramo izvršni fajl aplikacije, kao 
 (npr. dinamičku biblioteku) koji su neophodni za njegovo izvršavanje. U tom smislu, neophodno je
 kopirati relevantne fajlove na odgovarajuću lokaciju u *root filesystem* na SD kartici.
 
-**Napomena:** Prije postupka kroskompajliranja, potrebno je eksportovati putanju do kroskompajlera,
+> [!IMPORTANT]
+> Prije postupka kroskompajliranja, potrebno je eksportovati putanju do kroskompajlera,
 kao što je objašnjeno u prvoj laboratorijskoj vježbi, a u tu svrhu može da se koristi i skripta iz
 pomenute vježbe, koja je dostupna u okviru repozitorijuma (folder `scripts`).
 
@@ -197,7 +198,8 @@ Ponovite prethodne korake, pri čemu je programima `gcc` i `ar` potrebno dodati 
 (uz pretpostavku da ste pri konfiguraciji *toolchain*-a podesili ovaj prefiks kao *alias*, u suprotnom
 ćete morati koristiti puni *tuple* arhitekture.
 
-**Napomena:** Osim eksportovanja putanje do *toolchain* alata, skripta `set-environment.sh` podešava i
+> [!NOTE]
+Osim eksportovanja putanje do *toolchain* alata, skripta `set-environment.sh` podešava i
 druge varijable (`CROSS_COMPILE`, `ARCH` i `SYSROOT) koje se koriste u drugim skriptama ili prilikom
 automatizacije procesa kroskompajliranja (npr. skripta `list-libs.sh` koristi varijablu `CROSS_COMPILE`).
 
@@ -205,7 +207,8 @@ Nakon što generišete neophodne fajlove, trebate ih prekopirati na SD karticu z
 platformi. Vodite računa da je kompletan *root filesystem* "u vlasništvu" *root* korisnika, tako da će
 pri kopiranju biti potrebno koristiti `sudo` privilegije.
 
-**Napomena:** Kod dinamičkog kompajliranja potrebno je uz izvršni fajl aplikacije prekopirati i fajl
+> [!IMPORTANT]
+Kod dinamičkog kompajliranja potrebno je uz izvršni fajl aplikacije prekopirati i fajl
 dinamičke biblioteke (`libtest.so`). Takođe, kao i kod *native* izvršavanja, na ciljnoj platformi ćete
 trebati eksportovati `LD_LIBRARY_PATH` varijablu (osim ako biblioteku kopirate u sistemske foldere).
 
@@ -397,7 +400,8 @@ je dinamički linkovan sa *SQLite3* bibliotekom.
 Konačno, kopirajte izvršni fajl i fajlove biblioteke na SD karticu i testirajte izvršavanje aplikacije na ciljnoj
 platformi.
 
-**Napomena:** Fajlove biblioteke `libsqlite3.so.0.8.6`, `libsqlite3.so.0` i `libsqlite3.so` iz *sysroot* foldera trebate
+> [!IMPORTANT]
+Fajlove biblioteke `libsqlite3.so.0.8.6`, `libsqlite3.so.0` i `libsqlite3.so` iz *sysroot* foldera trebate
 kopirati u folder `/usr/lib` na ciljnoj platformi.
 
 ## Korišćenje *CMake*-a za automatizaciju (kros)kompajliranja
@@ -492,7 +496,8 @@ ovako generisan program na ciljnoj platformi.
 Eksperimentišite sa tipom generisane biblioteke (statička ili dinamička) korišćenjem kvalifikatora `STATIC` i `SHARED` u okviru
 `add_library()` direktive. Pokušajte da to ponovite za ciljnu platformu kroskompajliranjem.
 
-**Napomena:** Kada kompajlirate program povezan sa dinamičkom bibliotekom, možete primjetiti da nije neophodno eksportovati
+> [!WARNING]
+Kada kompajlirate program povezan sa dinamičkom bibliotekom, možete primjetiti da nije neophodno eksportovati
 varijablu `LD_LIBRARY_PATH` za izvršavanje na razvojnoj platformi, jer je to riješeno na nivou *CMake* sistema. Međutim,
 probajte da izvršite tako kopiran fajl sa dinamičkom bibliotekom na ciljnoj platformi. Gdje se očekuje da biblioteka bude
 smještena na ciljnoj platformi?
@@ -502,7 +507,8 @@ U posljednjem koraku, potrebno je demonstrirati postupak kroskompajliranja `sqli
 na predavanjima i *toolchain* fajl definisan u fajlu `arm_cortex_a9.cmake` koji se nalazi u folderu `toolchains` unutar `lab-02`
 foldera.
 
-**Napomena:** *Toolchain* fajl u repozitorijumu je potrebno prilagoditi računaru koji koristi student, jer se definisane putanje
+> [!IMPORTANT]
+*Toolchain* fajl u repozitorijumu je potrebno prilagoditi računaru koji koristi student, jer se definisane putanje
 razlikuju od onih koje su navedene.
 
 Na kraju, predajte sve kreirane i modifikovane fajlove na prethodno kreiranu granu u repozitorijumu.
