@@ -448,18 +448,21 @@ cmake --build
 Komandu `rm -f *` unutar `build` foldera koristimo da bismo očistili sve fajlove dobijene na osnovu prethodne konfiguracije.
 To je neophodno inače će se pojaviti greške prilikom rekonfiguracije sistema.
 
-Sljedeći korak je (kros)kompajliranje korisničke biblioteke. U tom smislu, pređite folder `app` unutar `lab-02` foldera,
-napravite folder pod nazivom `test` i prebacite izvorne i *header* fajlove biblioteke u ovaj folder.
+Sljedeći korak je (kros)kompajliranje korisničke biblioteke. U tom smislu, krirajte novi folder `app-cmake` unutar `lab-02` foldera,
+a onda napravite folder pod nazivom `test` i kopirajte izvorne i *header* fajlove biblioteke u ovaj folder. Prekopirajte i izvorni
+kod aplikacije u folder `app-cmake`
 
 ```
-cd lab-02/app
+mkdir app-cmake
+cd lab-02/app-cmake
 mkdir test
-mv inc/test.h src/print.c src/sum.c test
+cp ../app/inc/test.h ../app/src/print.c ../app/src/sum.c test
+cp ../app/src/app.c .
 ```
 
-Kreirajte dva `CMakeLists.txt` fajla, jedan u app folderu, a drugi u test folderu. Krovni `CMakeLists.txt` treba da ima iste
-tri linije kao prethodnom primjeru, s tom razlikom da je potrebno da se umjesto `hello` navede `app` i da se ispravno definiše
-putanja do izvornog koda. Uz ove tri linije dodaćemo i sljedeće za uključenje korisničke biblioteke:
+Kreirajte dva `CMakeLists.txt` fajla, jedan u `app-cmake` folderu, a drugi u `test` folderu. Krovni `CMakeLists.txt` treba da ima iste
+tri linije kao prethodnom primjeru, s tom razlikom da je potrebno da se umjesto `hello` referencira `app`. Uz ove tri linije dodaćemo 
+i sljedeće za uključenje korisničke biblioteke:
 
 ```
 add_subdirectory(test)
@@ -483,11 +486,16 @@ cmake ..
 cmake --build .
 ```
 
-Porbjerite da li se generisani program izvršava ispravno, a zatim ponovite sve ali tako da kroskompajlirate program. Testirajte
+Provjerite da li se generisani program izvršava ispravno, a zatim ponovite sve ali tako da kroskompajlirate program. Testirajte
 ovako generisan program na ciljnoj platformi.
 
 Eksperimentišite sa tipom generisane biblioteke (statička ili dinamička) korišćenjem kvalifikatora `STATIC` i `SHARED` u okviru
 `add_library()` direktive. Pokušajte da to ponovite za ciljnu platformu kroskompajliranjem.
+
+**Napomena:** Kada kompajlirate program povezan sa dinamičkom bibliotekom, možete primjetiti da nije neophodno eksportovati
+varijablu `LD_LIBRARY_PATH` za izvršavanje na razvojnoj platformi, jer je to riješeno na nivou *CMake* sistema. Međutim,
+probajte da izvršite tako kopiran fajl sa dinamičkom bibliotekom na ciljnoj platformi. Gdje se očekuje da biblioteka bude
+smještena na ciljnoj platformi?
 
 U posljednjem koraku, potrebno je demonstrirati postupak kroskompajliranja `sqlite-test` aplikacije koja treba da se linkuje sa
 *SQLite3* bibliotekom u prethodnoj sekciji vježbe. U tu svrhu iskoristite *CMake* funkciju `find_package()` koju smo pominjali
