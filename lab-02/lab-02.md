@@ -496,3 +496,5 @@ foldera.
 
 **Napomena:** *Toolchain* fajl u repozitorijumu je potrebno prilagoditi računaru koji koristi student, jer se definisane putanje
 razlikuju od onih koje su navedene.
+
+Na kraju, predajte sve kreirane i modifikovane fajlove na prethodno kreiranu granu u repozitorijumu.
