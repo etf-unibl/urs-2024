@@ -1,5 +1,6 @@
 CFLAGS := -Wall -I./inc
 LDFLAGS := -static -ltest -L./lib
+STATIC=yes
 
 app: src/app.o lib/libtest.a
 	$(CROSS_COMPILE)gcc src/app.o -o $@ $(LDFLAGS)
