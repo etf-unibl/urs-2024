@@ -491,5 +491,8 @@ Eksperimentišite sa tipom generisane biblioteke (statička ili dinamička) kori
 
 U posljednjem koraku, potrebno je demonstrirati postupak kroskompajliranja `sqlite-test` aplikacije koja treba da se linkuje sa
 *SQLite3* bibliotekom u prethodnoj sekciji vježbe. U tu svrhu iskoristite *CMake* funkciju `find_package()` koju smo pominjali
-na predavanjima i *toolchain* fajl definisan u fajlu `toolchain.cmake` koji se nalazi u folderu `toolchains` unutar `lab-02`
+na predavanjima i *toolchain* fajl definisan u fajlu `arm_cortex_a9.cmake` koji se nalazi u folderu `toolchains` unutar `lab-02`
 foldera.
+
+**Napomena:** *Toolchain* fajl u repozitorijumu je potrebno prilagoditi računaru koji koristi student, jer se definisane putanje
+razlikuju od onih koje su navedene.
