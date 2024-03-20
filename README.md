@@ -38,7 +38,7 @@ Npr. ako student predaje rješenje za laboratorijsku vježbu 3, a njegov broj in
 ## Sadržaj
 
 1. [Laboratorijska vježba 1](lab-01/lab-01.md)
-2. [Laboratorijska vježba 2]()
+2. [Laboratorijska vježba 2](lab-02/lab-02.md)
 3. [Laboratorijska vježba 3]()
 4. [Laboratorijska vježba 4]()
 5. [Laboratorijska vježba 5]()

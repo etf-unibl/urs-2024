@@ -315,10 +315,10 @@ programa za koji želimo da prikažemo date informacije, npr.
 ## Kopiranje izvršnog fajla na ciljnu platformu
 
 Za potrebe vježbe, pripremljen je *image* za SD karticu (fajl pod nazivom
-`sd-card-lab.img` koji možete pronaći u folderu `lab-01`) u okviru kojeg se nalazi sve
-što je neophodno za pokretanje *Linux* sistema na DE1-SoC ploči, uključujući i
-*root filesystem* u okviru kojeg se nalaze sve biblioteke od kojih zavisi pokretanje
-kroskompajliranog programa.
+`sd-card-lab.img` koji možete pronaći na *Google Classroom* stranici kursa) u okviru
+kojeg se nalazi sve što je neophodno za pokretanje *Linux* sistema na DE1-SoC ploči,
+uključujući i *root filesystem* u okviru kojeg se nalaze sve biblioteke od kojih zavisi
+pokretanje kroskompajliranog programa.
 
 Ovaj *image* je prvo potrebno kopirati na SD karticu. Na *Windows* operativnom sistemu
 možete koristiti softver [*balenaEtcher*](https://etcher.balena.io/) koji ima veoma
