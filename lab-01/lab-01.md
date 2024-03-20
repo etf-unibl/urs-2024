@@ -331,7 +331,7 @@ sudo dd if=sd-card-lab.img of=/dev/sdX bs=1M
 
 gdje je `/dev/sdX` ime uređaja koji predstavlja SD karticu (npr. `/dev/sdb`).
 
-> [!IMPORTANT]
+> [!CAUTION]
 > Obratite posebnu pažnju na to da izaberete ispravan uređaj, jer
 slično ime može da ima glavni hard disk računara na kojem radite. Pomenuta komanda
 može da uzrokuje brisanje kompletnog fajl sistema računara na kojem radite ako
