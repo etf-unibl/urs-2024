@@ -1,0 +1,2 @@
+/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/bin/arm-linux-ar qc libtest.a CMakeFiles/test.dir/print.c.o CMakeFiles/test.dir/sum.c.o
+/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/bin/arm-linux-ranlib libtest.a

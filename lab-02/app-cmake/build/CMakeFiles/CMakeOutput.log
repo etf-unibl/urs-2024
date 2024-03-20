@@ -1,0 +1,379 @@
+The system is: Linux - 5.15.0-91-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/lesam/x-tools/arm-etfbl-linux-gnueabihf/bin/arm-linux-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/lesam/urs-2024/lab-02/app-cmake/build/CMakeFiles/3.22.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/lesam/x-tools/arm-etfbl-linux-gnueabihf/bin/arm-linux-c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/lesam/urs-2024/lab-02/app-cmake/build/CMakeFiles/3.22.1/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/lesam/urs-2024/lab-02/app-cmake/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_08219/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_08219.dir/build.make CMakeFiles/cmTC_08219.dir/build
+gmake[1]: Entering directory '/home/lesam/urs-2024/lab-02/app-cmake/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_08219.dir/CMakeCCompilerABI.c.o
+/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/bin/arm-linux-gcc   -v -o CMakeFiles/cmTC_08219.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/bin/arm-linux-gcc
+Target: arm-etfbl-linux-gnueabihf
+Configured with: /home/lesam/crosstool-ng/.build/arm-etfbl-linux-gnueabihf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-etfbl-linux-gnueabihf --prefix=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf --exec_prefix=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf --with-sysroot=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot --enable-languages=c,c++ --with-cpu=cortex-a9 --with-fpu=neon --with-float=hard --with-pkgversion='crosstool-NG 1.26.0' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/home/lesam/crosstool-ng/.build/arm-etfbl-linux-gnueabihf/buildtools --with-mpfr=/home/lesam/crosstool-ng/.build/arm-etfbl-linux-gnueabihf/buildtools --with-mpc=/home/lesam/crosstool-ng/.build/arm-etfbl-linux-gnueabihf/buildtools --with-isl=/home/lesam/crosstool-ng/.build/arm-etfbl-linux-gnueabihf/buildtools --enable-lto --enable-threads=posix --enable-plugin --enable-gold --with-libintl-prefix=/home/lesam/crosstool-ng/.build/arm-etfbl-linux-gnueabihf/buildtools --disable-multilib --with-local-prefix=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot --enable-long-long
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 13.2.0 (crosstool-NG 1.26.0) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_08219.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv7-a+mp+sec+simd' '-march=armv7-a+mp+sec+simd' '-dumpdir' 'CMakeFiles/cmTC_08219.dir/'
+ /home/lesam/x-tools/arm-etfbl-linux-gnueabihf/libexec/gcc/arm-etfbl-linux-gnueabihf/13.2.0/cc1 -quiet -v /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_08219.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-a9 -mfloat-abi=hard -mfpu=neon -mtls-dialect=gnu -marm -mlibarch=armv7-a+mp+sec+simd -march=armv7-a+mp+sec+simd -version -o /tmp/ccHmaNqW.s
+GNU C17 (crosstool-NG 1.26.0) version 13.2.0 (arm-etfbl-linux-gnueabihf)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.2.1, MPC version 1.2.1, isl version isl-0.26-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/include
+ /home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/include-fixed
+ /home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/../../../../arm-etfbl-linux-gnueabihf/include
+ /home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include
+End of search list.
+Compiler executable checksum: c63839dadcabb152eafed7ba5e8c036d
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_08219.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv7-a+mp+sec+simd' '-march=armv7-a+mp+sec+simd' '-dumpdir' 'CMakeFiles/cmTC_08219.dir/'
+ /home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/../../../../arm-etfbl-linux-gnueabihf/bin/as -v -march=armv7-a+mp+sec+simd -mfloat-abi=hard -mfpu=neon -meabi=5 -o CMakeFiles/cmTC_08219.dir/CMakeCCompilerABI.c.o /tmp/ccHmaNqW.s
+GNU assembler version 2.40 (arm-etfbl-linux-gnueabihf) using BFD version (crosstool-NG 1.26.0) 2.40
+COMPILER_PATH=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/libexec/gcc/arm-etfbl-linux-gnueabihf/13.2.0/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/libexec/gcc/arm-etfbl-linux-gnueabihf/13.2.0/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/libexec/gcc/arm-etfbl-linux-gnueabihf/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/../../../../arm-etfbl-linux-gnueabihf/bin/
+LIBRARY_PATH=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/../../../../arm-etfbl-linux-gnueabihf/lib/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/lib/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_08219.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv7-a+mp+sec+simd' '-march=armv7-a+mp+sec+simd' '-dumpdir' 'CMakeFiles/cmTC_08219.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_08219
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08219.dir/link.txt --verbose=1
+/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/bin/arm-linux-gcc  -v -rdynamic CMakeFiles/cmTC_08219.dir/CMakeCCompilerABI.c.o -o cmTC_08219 
+Using built-in specs.
+COLLECT_GCC=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/bin/arm-linux-gcc
+COLLECT_LTO_WRAPPER=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/libexec/gcc/arm-etfbl-linux-gnueabihf/13.2.0/lto-wrapper
+Target: arm-etfbl-linux-gnueabihf
+Configured with: /home/lesam/crosstool-ng/.build/arm-etfbl-linux-gnueabihf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-etfbl-linux-gnueabihf --prefix=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf --exec_prefix=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf --with-sysroot=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot --enable-languages=c,c++ --with-cpu=cortex-a9 --with-fpu=neon --with-float=hard --with-pkgversion='crosstool-NG 1.26.0' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/home/lesam/crosstool-ng/.build/arm-etfbl-linux-gnueabihf/buildtools --with-mpfr=/home/lesam/crosstool-ng/.build/arm-etfbl-linux-gnueabihf/buildtools --with-mpc=/home/lesam/crosstool-ng/.build/arm-etfbl-linux-gnueabihf/buildtools --with-isl=/home/lesam/crosstool-ng/.build/arm-etfbl-linux-gnueabihf/buildtools --enable-lto --enable-threads=posix --enable-plugin --enable-gold --with-libintl-prefix=/home/lesam/crosstool-ng/.build/arm-etfbl-linux-gnueabihf/buildtools --disable-multilib --with-local-prefix=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot --enable-long-long
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 13.2.0 (crosstool-NG 1.26.0) 
+COMPILER_PATH=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/libexec/gcc/arm-etfbl-linux-gnueabihf/13.2.0/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/libexec/gcc/arm-etfbl-linux-gnueabihf/13.2.0/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/libexec/gcc/arm-etfbl-linux-gnueabihf/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/../../../../arm-etfbl-linux-gnueabihf/bin/
+LIBRARY_PATH=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/../../../../arm-etfbl-linux-gnueabihf/lib/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/lib/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_08219' '-mcpu=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv7-a+mp+sec+simd' '-march=armv7-a+mp+sec+simd' '-dumpdir' 'cmTC_08219.'
+ /home/lesam/x-tools/arm-etfbl-linux-gnueabihf/libexec/gcc/arm-etfbl-linux-gnueabihf/13.2.0/collect2 -plugin /home/lesam/x-tools/arm-etfbl-linux-gnueabihf/libexec/gcc/arm-etfbl-linux-gnueabihf/13.2.0/liblto_plugin.so -plugin-opt=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/libexec/gcc/arm-etfbl-linux-gnueabihf/13.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQaHixp.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_08219 /home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/lib/crt1.o /home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/lib/crti.o /home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/crtbegin.o -L/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0 -L/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/../../../../arm-etfbl-linux-gnueabihf/lib -L/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/lib -L/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/lib CMakeFiles/cmTC_08219.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/crtend.o /home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_08219' '-mcpu=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv7-a+mp+sec+simd' '-march=armv7-a+mp+sec+simd' '-dumpdir' 'cmTC_08219.'
+gmake[1]: Leaving directory '/home/lesam/urs-2024/lab-02/app-cmake/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/include]
+    add: [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/include-fixed]
+    add: [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/../../../../arm-etfbl-linux-gnueabihf/include]
+    add: [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/include] ==> [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/include]
+  collapse include dir [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/include-fixed] ==> [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/include-fixed]
+  collapse include dir [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/../../../../arm-etfbl-linux-gnueabihf/include] ==> [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/include]
+  collapse include dir [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include] ==> [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include]
+  implicit include dirs: [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/include;/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/include-fixed;/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/include;/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/lesam/urs-2024/lab-02/app-cmake/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_08219/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_08219.dir/build.make CMakeFiles/cmTC_08219.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/lesam/urs-2024/lab-02/app-cmake/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_08219.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/bin/arm-linux-gcc   -v -o CMakeFiles/cmTC_08219.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/bin/arm-linux-gcc]
+  ignore line: [Target: arm-etfbl-linux-gnueabihf]
+  ignore line: [Configured with: /home/lesam/crosstool-ng/.build/arm-etfbl-linux-gnueabihf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-etfbl-linux-gnueabihf --prefix=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf --exec_prefix=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf --with-sysroot=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot --enable-languages=c c++ --with-cpu=cortex-a9 --with-fpu=neon --with-float=hard --with-pkgversion='crosstool-NG 1.26.0' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/home/lesam/crosstool-ng/.build/arm-etfbl-linux-gnueabihf/buildtools --with-mpfr=/home/lesam/crosstool-ng/.build/arm-etfbl-linux-gnueabihf/buildtools --with-mpc=/home/lesam/crosstool-ng/.build/arm-etfbl-linux-gnueabihf/buildtools --with-isl=/home/lesam/crosstool-ng/.build/arm-etfbl-linux-gnueabihf/buildtools --enable-lto --enable-threads=posix --enable-plugin --enable-gold --with-libintl-prefix=/home/lesam/crosstool-ng/.build/arm-etfbl-linux-gnueabihf/buildtools --disable-multilib --with-local-prefix=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot --enable-long-long]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 13.2.0 (crosstool-NG 1.26.0) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_08219.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv7-a+mp+sec+simd' '-march=armv7-a+mp+sec+simd' '-dumpdir' 'CMakeFiles/cmTC_08219.dir/']
+  ignore line: [ /home/lesam/x-tools/arm-etfbl-linux-gnueabihf/libexec/gcc/arm-etfbl-linux-gnueabihf/13.2.0/cc1 -quiet -v /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_08219.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-a9 -mfloat-abi=hard -mfpu=neon -mtls-dialect=gnu -marm -mlibarch=armv7-a+mp+sec+simd -march=armv7-a+mp+sec+simd -version -o /tmp/ccHmaNqW.s]
+  ignore line: [GNU C17 (crosstool-NG 1.26.0) version 13.2.0 (arm-etfbl-linux-gnueabihf)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.2.1  MPC version 1.2.1  isl version isl-0.26-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/include]
+  ignore line: [ /home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/include-fixed]
+  ignore line: [ /home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/../../../../arm-etfbl-linux-gnueabihf/include]
+  ignore line: [ /home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [Compiler executable checksum: c63839dadcabb152eafed7ba5e8c036d]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_08219.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv7-a+mp+sec+simd' '-march=armv7-a+mp+sec+simd' '-dumpdir' 'CMakeFiles/cmTC_08219.dir/']
+  ignore line: [ /home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/../../../../arm-etfbl-linux-gnueabihf/bin/as -v -march=armv7-a+mp+sec+simd -mfloat-abi=hard -mfpu=neon -meabi=5 -o CMakeFiles/cmTC_08219.dir/CMakeCCompilerABI.c.o /tmp/ccHmaNqW.s]
+  ignore line: [GNU assembler version 2.40 (arm-etfbl-linux-gnueabihf) using BFD version (crosstool-NG 1.26.0) 2.40]
+  ignore line: [COMPILER_PATH=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/libexec/gcc/arm-etfbl-linux-gnueabihf/13.2.0/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/libexec/gcc/arm-etfbl-linux-gnueabihf/13.2.0/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/libexec/gcc/arm-etfbl-linux-gnueabihf/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/../../../../arm-etfbl-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/../../../../arm-etfbl-linux-gnueabihf/lib/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/lib/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_08219.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv7-a+mp+sec+simd' '-march=armv7-a+mp+sec+simd' '-dumpdir' 'CMakeFiles/cmTC_08219.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_08219]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08219.dir/link.txt --verbose=1]
+  ignore line: [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/bin/arm-linux-gcc  -v -rdynamic CMakeFiles/cmTC_08219.dir/CMakeCCompilerABI.c.o -o cmTC_08219 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/bin/arm-linux-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/libexec/gcc/arm-etfbl-linux-gnueabihf/13.2.0/lto-wrapper]
+  ignore line: [Target: arm-etfbl-linux-gnueabihf]
+  ignore line: [Configured with: /home/lesam/crosstool-ng/.build/arm-etfbl-linux-gnueabihf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-etfbl-linux-gnueabihf --prefix=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf --exec_prefix=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf --with-sysroot=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot --enable-languages=c c++ --with-cpu=cortex-a9 --with-fpu=neon --with-float=hard --with-pkgversion='crosstool-NG 1.26.0' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/home/lesam/crosstool-ng/.build/arm-etfbl-linux-gnueabihf/buildtools --with-mpfr=/home/lesam/crosstool-ng/.build/arm-etfbl-linux-gnueabihf/buildtools --with-mpc=/home/lesam/crosstool-ng/.build/arm-etfbl-linux-gnueabihf/buildtools --with-isl=/home/lesam/crosstool-ng/.build/arm-etfbl-linux-gnueabihf/buildtools --enable-lto --enable-threads=posix --enable-plugin --enable-gold --with-libintl-prefix=/home/lesam/crosstool-ng/.build/arm-etfbl-linux-gnueabihf/buildtools --disable-multilib --with-local-prefix=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot --enable-long-long]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 13.2.0 (crosstool-NG 1.26.0) ]
+  ignore line: [COMPILER_PATH=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/libexec/gcc/arm-etfbl-linux-gnueabihf/13.2.0/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/libexec/gcc/arm-etfbl-linux-gnueabihf/13.2.0/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/libexec/gcc/arm-etfbl-linux-gnueabihf/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/../../../../arm-etfbl-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/../../../../arm-etfbl-linux-gnueabihf/lib/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/lib/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_08219' '-mcpu=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv7-a+mp+sec+simd' '-march=armv7-a+mp+sec+simd' '-dumpdir' 'cmTC_08219.']
+  link line: [ /home/lesam/x-tools/arm-etfbl-linux-gnueabihf/libexec/gcc/arm-etfbl-linux-gnueabihf/13.2.0/collect2 -plugin /home/lesam/x-tools/arm-etfbl-linux-gnueabihf/libexec/gcc/arm-etfbl-linux-gnueabihf/13.2.0/liblto_plugin.so -plugin-opt=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/libexec/gcc/arm-etfbl-linux-gnueabihf/13.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQaHixp.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_08219 /home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/lib/crt1.o /home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/lib/crti.o /home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/crtbegin.o -L/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0 -L/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/../../../../arm-etfbl-linux-gnueabihf/lib -L/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/lib -L/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/lib CMakeFiles/cmTC_08219.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/crtend.o /home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/lib/crtn.o]
+    arg [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/libexec/gcc/arm-etfbl-linux-gnueabihf/13.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/libexec/gcc/arm-etfbl-linux-gnueabihf/13.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/libexec/gcc/arm-etfbl-linux-gnueabihf/13.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccQaHixp.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-armhf.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_08219] ==> ignore
+    arg [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/lib/crt1.o] ==> obj [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/lib/crt1.o]
+    arg [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/lib/crti.o] ==> obj [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/lib/crti.o]
+    arg [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/crtbegin.o] ==> obj [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/crtbegin.o]
+    arg [-L/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0] ==> dir [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0]
+    arg [-L/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/../../../../arm-etfbl-linux-gnueabihf/lib] ==> dir [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/../../../../arm-etfbl-linux-gnueabihf/lib]
+    arg [-L/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/lib] ==> dir [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/lib]
+    arg [-L/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/lib] ==> dir [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/lib]
+    arg [CMakeFiles/cmTC_08219.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/crtend.o] ==> obj [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/crtend.o]
+    arg [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/lib/crtn.o] ==> obj [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/lib/crtn.o]
+  collapse library dir [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0] ==> [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0]
+  collapse library dir [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/../../../../arm-etfbl-linux-gnueabihf/lib] ==> [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/lib]
+  collapse library dir [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/lib] ==> [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/lib]
+  collapse library dir [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/lib] ==> [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/lib/crt1.o;/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/lib/crti.o;/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/crtbegin.o;/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/crtend.o;/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/lib/crtn.o]
+  implicit dirs: [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0;/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/lib;/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/lib;/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/lesam/urs-2024/lab-02/app-cmake/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fef60/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fef60.dir/build.make CMakeFiles/cmTC_fef60.dir/build
+gmake[1]: Entering directory '/home/lesam/urs-2024/lab-02/app-cmake/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fef60.dir/CMakeCXXCompilerABI.cpp.o
+/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/bin/arm-linux-c++   -v -o CMakeFiles/cmTC_fef60.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/bin/arm-linux-c++
+Target: arm-etfbl-linux-gnueabihf
+Configured with: /home/lesam/crosstool-ng/.build/arm-etfbl-linux-gnueabihf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-etfbl-linux-gnueabihf --prefix=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf --exec_prefix=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf --with-sysroot=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot --enable-languages=c,c++ --with-cpu=cortex-a9 --with-fpu=neon --with-float=hard --with-pkgversion='crosstool-NG 1.26.0' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/home/lesam/crosstool-ng/.build/arm-etfbl-linux-gnueabihf/buildtools --with-mpfr=/home/lesam/crosstool-ng/.build/arm-etfbl-linux-gnueabihf/buildtools --with-mpc=/home/lesam/crosstool-ng/.build/arm-etfbl-linux-gnueabihf/buildtools --with-isl=/home/lesam/crosstool-ng/.build/arm-etfbl-linux-gnueabihf/buildtools --enable-lto --enable-threads=posix --enable-plugin --enable-gold --with-libintl-prefix=/home/lesam/crosstool-ng/.build/arm-etfbl-linux-gnueabihf/buildtools --disable-multilib --with-local-prefix=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot --enable-long-long
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 13.2.0 (crosstool-NG 1.26.0) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fef60.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv7-a+mp+sec+simd' '-march=armv7-a+mp+sec+simd' '-dumpdir' 'CMakeFiles/cmTC_fef60.dir/'
+ /home/lesam/x-tools/arm-etfbl-linux-gnueabihf/libexec/gcc/arm-etfbl-linux-gnueabihf/13.2.0/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_fef60.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-a9 -mfloat-abi=hard -mfpu=neon -mtls-dialect=gnu -marm -mlibarch=armv7-a+mp+sec+simd -march=armv7-a+mp+sec+simd -version -o /tmp/ccFQmNl8.s
+GNU C++17 (crosstool-NG 1.26.0) version 13.2.0 (arm-etfbl-linux-gnueabihf)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.2.1, MPC version 1.2.1, isl version isl-0.26-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/../../../../arm-etfbl-linux-gnueabihf/include/c++/13.2.0
+ /home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/../../../../arm-etfbl-linux-gnueabihf/include/c++/13.2.0/arm-etfbl-linux-gnueabihf
+ /home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/../../../../arm-etfbl-linux-gnueabihf/include/c++/13.2.0/backward
+ /home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/include
+ /home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/include-fixed
+ /home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/../../../../arm-etfbl-linux-gnueabihf/include
+ /home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include
+End of search list.
+Compiler executable checksum: b06767419e64d2ea06024343d184a48b
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fef60.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv7-a+mp+sec+simd' '-march=armv7-a+mp+sec+simd' '-dumpdir' 'CMakeFiles/cmTC_fef60.dir/'
+ /home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/../../../../arm-etfbl-linux-gnueabihf/bin/as -v -march=armv7-a+mp+sec+simd -mfloat-abi=hard -mfpu=neon -meabi=5 -o CMakeFiles/cmTC_fef60.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccFQmNl8.s
+GNU assembler version 2.40 (arm-etfbl-linux-gnueabihf) using BFD version (crosstool-NG 1.26.0) 2.40
+COMPILER_PATH=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/libexec/gcc/arm-etfbl-linux-gnueabihf/13.2.0/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/libexec/gcc/arm-etfbl-linux-gnueabihf/13.2.0/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/libexec/gcc/arm-etfbl-linux-gnueabihf/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/../../../../arm-etfbl-linux-gnueabihf/bin/
+LIBRARY_PATH=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/../../../../arm-etfbl-linux-gnueabihf/lib/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/lib/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fef60.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv7-a+mp+sec+simd' '-march=armv7-a+mp+sec+simd' '-dumpdir' 'CMakeFiles/cmTC_fef60.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_fef60
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fef60.dir/link.txt --verbose=1
+/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/bin/arm-linux-c++  -v -rdynamic CMakeFiles/cmTC_fef60.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_fef60 
+Using built-in specs.
+COLLECT_GCC=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/bin/arm-linux-c++
+COLLECT_LTO_WRAPPER=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/libexec/gcc/arm-etfbl-linux-gnueabihf/13.2.0/lto-wrapper
+Target: arm-etfbl-linux-gnueabihf
+Configured with: /home/lesam/crosstool-ng/.build/arm-etfbl-linux-gnueabihf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-etfbl-linux-gnueabihf --prefix=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf --exec_prefix=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf --with-sysroot=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot --enable-languages=c,c++ --with-cpu=cortex-a9 --with-fpu=neon --with-float=hard --with-pkgversion='crosstool-NG 1.26.0' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/home/lesam/crosstool-ng/.build/arm-etfbl-linux-gnueabihf/buildtools --with-mpfr=/home/lesam/crosstool-ng/.build/arm-etfbl-linux-gnueabihf/buildtools --with-mpc=/home/lesam/crosstool-ng/.build/arm-etfbl-linux-gnueabihf/buildtools --with-isl=/home/lesam/crosstool-ng/.build/arm-etfbl-linux-gnueabihf/buildtools --enable-lto --enable-threads=posix --enable-plugin --enable-gold --with-libintl-prefix=/home/lesam/crosstool-ng/.build/arm-etfbl-linux-gnueabihf/buildtools --disable-multilib --with-local-prefix=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot --enable-long-long
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 13.2.0 (crosstool-NG 1.26.0) 
+COMPILER_PATH=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/libexec/gcc/arm-etfbl-linux-gnueabihf/13.2.0/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/libexec/gcc/arm-etfbl-linux-gnueabihf/13.2.0/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/libexec/gcc/arm-etfbl-linux-gnueabihf/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/../../../../arm-etfbl-linux-gnueabihf/bin/
+LIBRARY_PATH=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/../../../../arm-etfbl-linux-gnueabihf/lib/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/lib/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_fef60' '-shared-libgcc' '-mcpu=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv7-a+mp+sec+simd' '-march=armv7-a+mp+sec+simd' '-dumpdir' 'cmTC_fef60.'
+ /home/lesam/x-tools/arm-etfbl-linux-gnueabihf/libexec/gcc/arm-etfbl-linux-gnueabihf/13.2.0/collect2 -plugin /home/lesam/x-tools/arm-etfbl-linux-gnueabihf/libexec/gcc/arm-etfbl-linux-gnueabihf/13.2.0/liblto_plugin.so -plugin-opt=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/libexec/gcc/arm-etfbl-linux-gnueabihf/13.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc1L59cH.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_fef60 /home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/lib/crt1.o /home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/lib/crti.o /home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/crtbegin.o -L/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0 -L/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/../../../../arm-etfbl-linux-gnueabihf/lib -L/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/lib -L/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/lib CMakeFiles/cmTC_fef60.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/crtend.o /home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_fef60' '-shared-libgcc' '-mcpu=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv7-a+mp+sec+simd' '-march=armv7-a+mp+sec+simd' '-dumpdir' 'cmTC_fef60.'
+gmake[1]: Leaving directory '/home/lesam/urs-2024/lab-02/app-cmake/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/../../../../arm-etfbl-linux-gnueabihf/include/c++/13.2.0]
+    add: [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/../../../../arm-etfbl-linux-gnueabihf/include/c++/13.2.0/arm-etfbl-linux-gnueabihf]
+    add: [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/../../../../arm-etfbl-linux-gnueabihf/include/c++/13.2.0/backward]
+    add: [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/include]
+    add: [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/include-fixed]
+    add: [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/../../../../arm-etfbl-linux-gnueabihf/include]
+    add: [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/../../../../arm-etfbl-linux-gnueabihf/include/c++/13.2.0] ==> [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/include/c++/13.2.0]
+  collapse include dir [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/../../../../arm-etfbl-linux-gnueabihf/include/c++/13.2.0/arm-etfbl-linux-gnueabihf] ==> [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/include/c++/13.2.0/arm-etfbl-linux-gnueabihf]
+  collapse include dir [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/../../../../arm-etfbl-linux-gnueabihf/include/c++/13.2.0/backward] ==> [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/include/c++/13.2.0/backward]
+  collapse include dir [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/include] ==> [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/include]
+  collapse include dir [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/include-fixed] ==> [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/include-fixed]
+  collapse include dir [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/../../../../arm-etfbl-linux-gnueabihf/include] ==> [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/include]
+  collapse include dir [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include] ==> [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include]
+  implicit include dirs: [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/include/c++/13.2.0;/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/include/c++/13.2.0/arm-etfbl-linux-gnueabihf;/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/include/c++/13.2.0/backward;/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/include;/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/include-fixed;/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/include;/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/lesam/urs-2024/lab-02/app-cmake/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fef60/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fef60.dir/build.make CMakeFiles/cmTC_fef60.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/lesam/urs-2024/lab-02/app-cmake/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_fef60.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/bin/arm-linux-c++   -v -o CMakeFiles/cmTC_fef60.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/bin/arm-linux-c++]
+  ignore line: [Target: arm-etfbl-linux-gnueabihf]
+  ignore line: [Configured with: /home/lesam/crosstool-ng/.build/arm-etfbl-linux-gnueabihf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-etfbl-linux-gnueabihf --prefix=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf --exec_prefix=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf --with-sysroot=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot --enable-languages=c c++ --with-cpu=cortex-a9 --with-fpu=neon --with-float=hard --with-pkgversion='crosstool-NG 1.26.0' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/home/lesam/crosstool-ng/.build/arm-etfbl-linux-gnueabihf/buildtools --with-mpfr=/home/lesam/crosstool-ng/.build/arm-etfbl-linux-gnueabihf/buildtools --with-mpc=/home/lesam/crosstool-ng/.build/arm-etfbl-linux-gnueabihf/buildtools --with-isl=/home/lesam/crosstool-ng/.build/arm-etfbl-linux-gnueabihf/buildtools --enable-lto --enable-threads=posix --enable-plugin --enable-gold --with-libintl-prefix=/home/lesam/crosstool-ng/.build/arm-etfbl-linux-gnueabihf/buildtools --disable-multilib --with-local-prefix=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot --enable-long-long]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 13.2.0 (crosstool-NG 1.26.0) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fef60.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv7-a+mp+sec+simd' '-march=armv7-a+mp+sec+simd' '-dumpdir' 'CMakeFiles/cmTC_fef60.dir/']
+  ignore line: [ /home/lesam/x-tools/arm-etfbl-linux-gnueabihf/libexec/gcc/arm-etfbl-linux-gnueabihf/13.2.0/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_fef60.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-a9 -mfloat-abi=hard -mfpu=neon -mtls-dialect=gnu -marm -mlibarch=armv7-a+mp+sec+simd -march=armv7-a+mp+sec+simd -version -o /tmp/ccFQmNl8.s]
+  ignore line: [GNU C++17 (crosstool-NG 1.26.0) version 13.2.0 (arm-etfbl-linux-gnueabihf)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.2.1  MPC version 1.2.1  isl version isl-0.26-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/../../../../arm-etfbl-linux-gnueabihf/include/c++/13.2.0]
+  ignore line: [ /home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/../../../../arm-etfbl-linux-gnueabihf/include/c++/13.2.0/arm-etfbl-linux-gnueabihf]
+  ignore line: [ /home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/../../../../arm-etfbl-linux-gnueabihf/include/c++/13.2.0/backward]
+  ignore line: [ /home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/include]
+  ignore line: [ /home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/include-fixed]
+  ignore line: [ /home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/../../../../arm-etfbl-linux-gnueabihf/include]
+  ignore line: [ /home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [Compiler executable checksum: b06767419e64d2ea06024343d184a48b]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fef60.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv7-a+mp+sec+simd' '-march=armv7-a+mp+sec+simd' '-dumpdir' 'CMakeFiles/cmTC_fef60.dir/']
+  ignore line: [ /home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/../../../../arm-etfbl-linux-gnueabihf/bin/as -v -march=armv7-a+mp+sec+simd -mfloat-abi=hard -mfpu=neon -meabi=5 -o CMakeFiles/cmTC_fef60.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccFQmNl8.s]
+  ignore line: [GNU assembler version 2.40 (arm-etfbl-linux-gnueabihf) using BFD version (crosstool-NG 1.26.0) 2.40]
+  ignore line: [COMPILER_PATH=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/libexec/gcc/arm-etfbl-linux-gnueabihf/13.2.0/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/libexec/gcc/arm-etfbl-linux-gnueabihf/13.2.0/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/libexec/gcc/arm-etfbl-linux-gnueabihf/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/../../../../arm-etfbl-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/../../../../arm-etfbl-linux-gnueabihf/lib/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/lib/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fef60.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv7-a+mp+sec+simd' '-march=armv7-a+mp+sec+simd' '-dumpdir' 'CMakeFiles/cmTC_fef60.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_fef60]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fef60.dir/link.txt --verbose=1]
+  ignore line: [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/bin/arm-linux-c++  -v -rdynamic CMakeFiles/cmTC_fef60.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_fef60 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/bin/arm-linux-c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/libexec/gcc/arm-etfbl-linux-gnueabihf/13.2.0/lto-wrapper]
+  ignore line: [Target: arm-etfbl-linux-gnueabihf]
+  ignore line: [Configured with: /home/lesam/crosstool-ng/.build/arm-etfbl-linux-gnueabihf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-etfbl-linux-gnueabihf --prefix=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf --exec_prefix=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf --with-sysroot=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot --enable-languages=c c++ --with-cpu=cortex-a9 --with-fpu=neon --with-float=hard --with-pkgversion='crosstool-NG 1.26.0' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/home/lesam/crosstool-ng/.build/arm-etfbl-linux-gnueabihf/buildtools --with-mpfr=/home/lesam/crosstool-ng/.build/arm-etfbl-linux-gnueabihf/buildtools --with-mpc=/home/lesam/crosstool-ng/.build/arm-etfbl-linux-gnueabihf/buildtools --with-isl=/home/lesam/crosstool-ng/.build/arm-etfbl-linux-gnueabihf/buildtools --enable-lto --enable-threads=posix --enable-plugin --enable-gold --with-libintl-prefix=/home/lesam/crosstool-ng/.build/arm-etfbl-linux-gnueabihf/buildtools --disable-multilib --with-local-prefix=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot --enable-long-long]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 13.2.0 (crosstool-NG 1.26.0) ]
+  ignore line: [COMPILER_PATH=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/libexec/gcc/arm-etfbl-linux-gnueabihf/13.2.0/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/libexec/gcc/arm-etfbl-linux-gnueabihf/13.2.0/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/libexec/gcc/arm-etfbl-linux-gnueabihf/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/../../../../arm-etfbl-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/../../../../arm-etfbl-linux-gnueabihf/lib/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/lib/:/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_fef60' '-shared-libgcc' '-mcpu=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv7-a+mp+sec+simd' '-march=armv7-a+mp+sec+simd' '-dumpdir' 'cmTC_fef60.']
+  link line: [ /home/lesam/x-tools/arm-etfbl-linux-gnueabihf/libexec/gcc/arm-etfbl-linux-gnueabihf/13.2.0/collect2 -plugin /home/lesam/x-tools/arm-etfbl-linux-gnueabihf/libexec/gcc/arm-etfbl-linux-gnueabihf/13.2.0/liblto_plugin.so -plugin-opt=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/libexec/gcc/arm-etfbl-linux-gnueabihf/13.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc1L59cH.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_fef60 /home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/lib/crt1.o /home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/lib/crti.o /home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/crtbegin.o -L/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0 -L/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/../../../../arm-etfbl-linux-gnueabihf/lib -L/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/lib -L/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/lib CMakeFiles/cmTC_fef60.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/crtend.o /home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/lib/crtn.o]
+    arg [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/libexec/gcc/arm-etfbl-linux-gnueabihf/13.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/libexec/gcc/arm-etfbl-linux-gnueabihf/13.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/libexec/gcc/arm-etfbl-linux-gnueabihf/13.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc1L59cH.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-armhf.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_fef60] ==> ignore
+    arg [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/lib/crt1.o] ==> obj [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/lib/crt1.o]
+    arg [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/lib/crti.o] ==> obj [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/lib/crti.o]
+    arg [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/crtbegin.o] ==> obj [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/crtbegin.o]
+    arg [-L/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0] ==> dir [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0]
+    arg [-L/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/../../../../arm-etfbl-linux-gnueabihf/lib] ==> dir [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/../../../../arm-etfbl-linux-gnueabihf/lib]
+    arg [-L/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/lib] ==> dir [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/lib]
+    arg [-L/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/lib] ==> dir [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/lib]
+    arg [CMakeFiles/cmTC_fef60.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/crtend.o] ==> obj [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/crtend.o]
+    arg [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/lib/crtn.o] ==> obj [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/lib/crtn.o]
+  collapse library dir [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0] ==> [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0]
+  collapse library dir [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/../../../../arm-etfbl-linux-gnueabihf/lib] ==> [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/lib]
+  collapse library dir [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/lib] ==> [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/lib]
+  collapse library dir [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/lib] ==> [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/lib/crt1.o;/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/lib/crti.o;/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/crtbegin.o;/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/crtend.o;/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/lib/crtn.o]
+  implicit dirs: [/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0;/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/lib;/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/lib;/home/lesam/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/lib]
+  implicit fwks: []
+
+
