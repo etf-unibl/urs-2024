@@ -1,22 +1,33 @@
 CFLAGS := -Wall -I./inc
 
-STATIC ?= yes
+STATIC ?= 1
 DESTDIR ?= /usr/local/bin
 
-ifeq ($(STATIC),yes)
+ifeq ($(STATIC),1)
     LDFLAGS := -static -ltest -L./lib
-else
-    LDFLAGS := -ltest -L./lib
-endif
-
-app: src/app.o lib/libtest.a
+    
+    app: src/app.o lib/libtest.a
 	$(CROSS_COMPILE)gcc src/app.o -o $@ $(LDFLAGS)
 
 src/app.o: src/app.c
 	$(CROSS_COMPILE)gcc -c $< $(CFLAGS) -o $@
 
 lib/libtest.a:
-	$(MAKE) -C lib libtest.a
+	$(MAKE) -C lib libtest.a STATIC=$(STATIC)
+	
+else
+    LDFLAGS := -ltest -L./lib
+    
+    app: src/app.o lib/libtest.so
+	$(CROSS_COMPILE)gcc src/app.o -o $@ $(LDFLAGS)
+
+src/app.o: src/app.c
+	$(CROSS_COMPILE)gcc -c $< $(CFLAGS) -o $@
+
+lib/libtest.so:
+	$(MAKE) -C lib libtest.so STATIC=$(STATIC)
+endif
+
 
 clean:
 	rm -f app src/*.o
