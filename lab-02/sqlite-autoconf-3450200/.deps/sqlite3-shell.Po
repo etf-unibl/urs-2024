@@ -1,0 +1,271 @@
+sqlite3-shell.o: shell.c \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/stdc-predef.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/stdlib.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/libc-header-start.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/features.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/features-time64.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/wordsize.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/timesize.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/sys/cdefs.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/long-double.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/gnu/stubs.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/gnu/stubs-hard.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/include/stddef.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/waitflags.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/waitstatus.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/floatn.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/floatn-common.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/sys/types.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/types.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/typesizes.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/time64.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/types/clock_t.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/types/clockid_t.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/types/time_t.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/types/timer_t.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/stdint-intn.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/endian.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/endian.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/endianness.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/byteswap.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/uintn-identity.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/sys/select.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/select.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/types/sigset_t.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/types/__sigset_t.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/types/struct_timeval.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/types/struct_timespec.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/pthreadtypes.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/thread-shared-types.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/pthreadtypes-arch.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/atomic_wide_counter.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/struct_mutex.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/struct_rwlock.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/alloca.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/stdlib-bsearch.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/stdlib-float.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/string.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/types/locale_t.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/types/__locale_t.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/strings.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/stdio.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/include/stdarg.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/types/__fpos_t.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/types/__mbstate_t.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/types/__fpos64_t.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/types/__FILE.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/types/FILE.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/types/struct_FILE.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/types/cookie_io_functions_t.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/stdio_lim.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/stdio.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/assert.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/math.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/math-vector.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/libm-simd-decl-stubs.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/flt-eval-method.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/fp-logb.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/fp-fast.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/mathcalls-helper-functions.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/mathcalls.h \
+ sqlite3.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/ctype.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/signal.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/signum-generic.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/signum-arch.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/types/sig_atomic_t.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/types/siginfo_t.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/types/__sigval_t.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/siginfo-arch.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/siginfo-consts.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/types/sigval_t.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/types/sigevent_t.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/sigevent-consts.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/sigaction.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/sigcontext.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/asm/sigcontext.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/types/stack_t.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/sys/ucontext.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/sigstack.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/sigstksz.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/ss_flags.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/types/struct_sigstack.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/sigthread.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/signal_ext.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/pwd.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/unistd.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/posix_opt.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/environments.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/confname.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/getopt_posix.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/getopt_core.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/unistd_ext.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/dirent.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/dirent.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/posix1_lim.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/local_lim.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/linux/limits.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/pthread_stack_min-dynamic.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/pthread_stack_min.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/dirent_ext.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/sys/stat.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/stat.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/struct_stat.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/sys/time.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/sys/resource.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/resource.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/types/struct_rusage.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/memory.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/include/limits.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/include/syslimits.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/limits.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/posix2_lim.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/fcntl.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/fcntl.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/fcntl-linux.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/utime.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/time.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/time.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/types/struct_tm.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/types/struct_itimerspec.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/errno.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/errno.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/linux/errno.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/asm/errno.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/asm-generic/errno.h \
+ /home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/asm-generic/errno-base.h
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/stdc-predef.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/stdlib.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/libc-header-start.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/features.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/features-time64.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/wordsize.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/timesize.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/sys/cdefs.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/long-double.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/gnu/stubs.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/gnu/stubs-hard.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/include/stddef.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/waitflags.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/waitstatus.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/floatn.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/floatn-common.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/sys/types.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/types.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/typesizes.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/time64.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/types/clock_t.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/types/clockid_t.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/types/time_t.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/types/timer_t.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/stdint-intn.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/endian.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/endian.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/endianness.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/byteswap.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/uintn-identity.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/sys/select.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/select.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/types/sigset_t.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/types/__sigset_t.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/types/struct_timeval.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/types/struct_timespec.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/pthreadtypes.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/thread-shared-types.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/pthreadtypes-arch.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/atomic_wide_counter.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/struct_mutex.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/struct_rwlock.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/alloca.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/stdlib-bsearch.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/stdlib-float.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/string.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/types/locale_t.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/types/__locale_t.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/strings.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/stdio.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/include/stdarg.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/types/__fpos_t.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/types/__mbstate_t.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/types/__fpos64_t.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/types/__FILE.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/types/FILE.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/types/struct_FILE.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/types/cookie_io_functions_t.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/stdio_lim.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/stdio.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/assert.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/math.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/math-vector.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/libm-simd-decl-stubs.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/flt-eval-method.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/fp-logb.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/fp-fast.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/mathcalls-helper-functions.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/mathcalls.h:
+sqlite3.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/ctype.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/signal.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/signum-generic.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/signum-arch.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/types/sig_atomic_t.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/types/siginfo_t.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/types/__sigval_t.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/siginfo-arch.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/siginfo-consts.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/types/sigval_t.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/types/sigevent_t.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/sigevent-consts.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/sigaction.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/sigcontext.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/asm/sigcontext.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/types/stack_t.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/sys/ucontext.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/sigstack.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/sigstksz.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/ss_flags.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/types/struct_sigstack.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/sigthread.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/signal_ext.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/pwd.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/unistd.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/posix_opt.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/environments.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/confname.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/getopt_posix.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/getopt_core.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/unistd_ext.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/dirent.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/dirent.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/posix1_lim.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/local_lim.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/linux/limits.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/pthread_stack_min-dynamic.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/pthread_stack_min.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/dirent_ext.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/sys/stat.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/stat.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/struct_stat.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/sys/time.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/sys/resource.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/resource.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/types/struct_rusage.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/memory.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/include/limits.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/lib/gcc/arm-etfbl-linux-gnueabihf/13.2.0/include/syslimits.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/limits.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/posix2_lim.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/fcntl.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/fcntl.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/fcntl-linux.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/utime.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/time.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/time.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/types/struct_tm.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/types/struct_itimerspec.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/errno.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/bits/errno.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/linux/errno.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/asm/errno.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/asm-generic/errno.h:
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/arm-etfbl-linux-gnueabihf/sysroot/usr/include/asm-generic/errno-base.h:

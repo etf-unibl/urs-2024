@@ -1,0 +1,1 @@
+/home/filip/x-tools/arm-etfbl-linux-gnueabihf/bin/arm-linux-gcc -rdynamic CMakeFiles/app.dir/app.c.o -o app  test/libtest.a 

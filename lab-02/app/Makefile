@@ -1,5 +1,12 @@
 CFLAGS := -Wall -I./inc
-LDFLAGS := -static -ltest -L./lib
+LDFLAGS := -L./lib
+STATIC ?= 1
+
+ifeq ($(STATIC),1)
+    LDFLAGS += -static -ltest -L./lib
+else
+    LDFLAGS += -ltest -L./lib
+endif
 
 app: src/app.o lib/libtest.a
 	$(CROSS_COMPILE)gcc src/app.o -o $@ $(LDFLAGS)
@@ -15,4 +22,3 @@ clean:
 	$(MAKE) -C lib clean
 
 .PHONY: clean
-

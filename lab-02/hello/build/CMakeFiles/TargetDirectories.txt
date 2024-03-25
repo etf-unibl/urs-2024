@@ -1,0 +1,3 @@
+/home/filip/Desktop/Reporziturijum/urs-2024/lab-02/hello/build/CMakeFiles/hello.dir
+/home/filip/Desktop/Reporziturijum/urs-2024/lab-02/hello/build/CMakeFiles/edit_cache.dir
+/home/filip/Desktop/Reporziturijum/urs-2024/lab-02/hello/build/CMakeFiles/rebuild_cache.dir
