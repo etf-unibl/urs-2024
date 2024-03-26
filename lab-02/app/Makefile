@@ -1,4 +1,5 @@
 CFLAGS := -Wall -I./inc
+
 ifeq ($(STATIC),0)
 LDFLAGS := -ltest -L./lib
 else
