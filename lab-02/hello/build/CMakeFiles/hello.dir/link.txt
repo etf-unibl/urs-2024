@@ -1,1 +1,0 @@
-/home/filip/x-tools/arm-etfbl-linux-gnueabihf/bin/arm-linux-gcc -rdynamic CMakeFiles/hello.dir/hello.c.o -o hello 
