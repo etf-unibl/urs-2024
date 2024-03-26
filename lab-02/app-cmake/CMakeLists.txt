@@ -5,4 +5,6 @@ add_executable(app app.c)
 add_subdirectory(test)
 target_link_libraries(app PUBLIC test)
 target_include_directories(app PUBLIC "${PROJECT_SOURCE_DIR}/test")
-set_target_properties(app PROPERTIES LINK_FLAGS "-static")
+
+#da bi se omogucilo staticko linkovanje, pored STATIC u drugom cmake fajlu
+#set_target_properties(app PROPERTIES LINK_FLAGS "-static")
