@@ -1,14 +1,37 @@
-CFLAGS := -Wall -I../inc
-SRCS_DIR := ../src
+# Default value for linking type (1 for static, 0 for dynamic)
+STATIC ?= 1
 
-libtest.a: print.o sum.o
-	$(CROSS_COMPILE)ar rcs $@ $^
+ifeq ($(STATIC), 1)
+    # Static linking configuration
+    CFLAGS := -Wall -I../inc
+    SRCS_DIR := ../src
 
-%.o: $(SRCS_DIR)/%.c
-	$(CROSS_COMPILE)gcc -c $< $(CFLAGS) -o $@
+    libtest.a: print.o sum.o
+	    $(CROSS_COMPILE)ar rcs $@ $^
 
-clean:
-	rm -f *.o libtest*
+    %.o: $(SRCS_DIR)/%.c
+	    $(CROSS_COMPILE)gcc -c $< $(CFLAGS) -o $@
+
+    clean:
+	    rm -f *.o libtest*
 
 .PHONY: clean
+
+else
+    # Dynamic linking configuration
+    CFLAGS := -Wall -I../inc -fPIC
+    SRCS_DIR := ../src
+
+    libtest.so: print.o sum.o
+	    $(CROSS_COMPILE)gcc -shared $^ -o $@
+
+    %.o: $(SRCS_DIR)/%.c
+	    $(CROSS_COMPILE)gcc -c $< $(CFLAGS) -o $@
+
+    clean:
+	    rm -f *.o libtest*
+
+.PHONY: clean
+
+endif
 
