@@ -1,8 +1,13 @@
 CFLAGS := -Wall -I./inc
-LDFLAGS := -static -ltest -L./lib
+LDFLAGS := -ltest -L./lib
+STATIC := 1
+DESTDIR := .
 
-app: src/app.o lib/libtest.a
-	$(CROSS_COMPILE)gcc src/app.o -o $@ $(LDFLAGS)
+$(DESTDIR)app: src/app.o lib/libtest.a
+	ifreq ($(STATIC),1)
+		$(CROSS_COMPILE)gcc src/app.o -o $@ -static $(LDFLAGS)
+	else
+		$(CROSS_COMPILE)gcc src/app.o -o $@ $(LDFLAGS)
 
 src/app.o: src/app.c
 	$(CROSS_COMPILE)gcc -c $< $(CFLAGS) -o $@
