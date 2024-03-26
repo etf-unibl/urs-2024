@@ -1,0 +1,6 @@
+/home/nemanja/urs-2024/lab-02/app-cmake/build/CMakeFiles/rebuild_cache.dir
+/home/nemanja/urs-2024/lab-02/app-cmake/build/CMakeFiles/edit_cache.dir
+/home/nemanja/urs-2024/lab-02/app-cmake/build/CMakeFiles/app.dir
+/home/nemanja/urs-2024/lab-02/app-cmake/build/test/CMakeFiles/rebuild_cache.dir
+/home/nemanja/urs-2024/lab-02/app-cmake/build/test/CMakeFiles/edit_cache.dir
+/home/nemanja/urs-2024/lab-02/app-cmake/build/test/CMakeFiles/test.dir

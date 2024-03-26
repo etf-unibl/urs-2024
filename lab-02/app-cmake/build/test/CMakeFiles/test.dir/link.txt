@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtest.a  CMakeFiles/test.dir/print.c.o CMakeFiles/test.dir/sum.c.o
+/usr/bin/ranlib libtest.a

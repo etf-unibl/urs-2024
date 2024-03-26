@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nemanja/urs-2024/lab-02/app-cmake/test/print.c
+stdio.h
+-
+test.h
+/home/nemanja/urs-2024/lab-02/app-cmake/test/test.h
+
+/home/nemanja/urs-2024/lab-02/app-cmake/test/sum.c
+test.h
+/home/nemanja/urs-2024/lab-02/app-cmake/test/test.h
+
+/home/nemanja/urs-2024/lab-02/app-cmake/test/test.h
+
