@@ -1,6 +1,0 @@
-/home/filip/Desktop/Reporziturijum/urs-2024/lab-02/app-cmake/build/CMakeFiles/app.dir
-/home/filip/Desktop/Reporziturijum/urs-2024/lab-02/app-cmake/build/CMakeFiles/edit_cache.dir
-/home/filip/Desktop/Reporziturijum/urs-2024/lab-02/app-cmake/build/CMakeFiles/rebuild_cache.dir
-/home/filip/Desktop/Reporziturijum/urs-2024/lab-02/app-cmake/build/test/CMakeFiles/test.dir
-/home/filip/Desktop/Reporziturijum/urs-2024/lab-02/app-cmake/build/test/CMakeFiles/edit_cache.dir
-/home/filip/Desktop/Reporziturijum/urs-2024/lab-02/app-cmake/build/test/CMakeFiles/rebuild_cache.dir
